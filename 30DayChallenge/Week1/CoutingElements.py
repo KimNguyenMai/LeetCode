@@ -1,5 +1,4 @@
 # Given an integer array arr, count element x such that x + 1 is also in arr.
-
 # If there're duplicates in arr, count them seperately.
 
 # Example 1:
@@ -12,13 +11,13 @@
 # Output: 0
 # Explanation: No numbers are counted, cause there's no 2, 4, 6, or 8 in arr.
 
-class Solution:
+class Solution: 
     def countElements(self, arr: List[int]) -> int:
         arr.sort()
         counter = 0
         
         for i in arr:
-            Sum = i + 1
+            Sum = i + 1 
             if Sum in arr:
                 counter += 1
         return counter
