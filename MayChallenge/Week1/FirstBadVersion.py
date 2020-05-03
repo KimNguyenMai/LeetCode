@@ -15,6 +15,7 @@
 # def isBadVersion(version):
 
 
+
 #Binary Search
 class Solution:
     def firstBadVersion(self, n):
