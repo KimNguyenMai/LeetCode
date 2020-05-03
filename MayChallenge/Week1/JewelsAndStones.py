@@ -1,5 +1,4 @@
 #771. 
-
 #Solution1: faster than 99%
 class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:
