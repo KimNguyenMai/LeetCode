@@ -47,3 +47,17 @@ class Solution:
             return True
         else:
             return False
+
+#Solution 3. Two pointer
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        first= 0
+        last =len(str(x))-1
+        
+        while first < last:
+            if(str(x)[first]!=str(x)[last]):
+                return False
+            else:
+                first=first+1
+                last=last-1
+        return True
