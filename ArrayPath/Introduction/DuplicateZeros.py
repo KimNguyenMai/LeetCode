@@ -27,3 +27,17 @@ class Solution:
                 i += 1
             i += 1   
 
+#Why this for loop doesnt work? output: all elems after inserted 0 becomes 0
+class Solution:
+    def duplicateZeros(self, arr: List[int]) -> None:
+        """
+        Do not return anything, modify arr in-place instead.
+        """
+        
+        for i in range(len(arr)- 1):
+            if arr[i] == 0:
+                arr.pop()
+                arr.insert(i+1,0)
+                i += 1
+            i += 1
+                
