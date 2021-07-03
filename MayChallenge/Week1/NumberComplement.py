@@ -30,3 +30,5 @@ class Solution:
             num >>= 1
             
         return ans
+
+        

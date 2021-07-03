@@ -41,3 +41,5 @@ class Solution:
                     num -= 200
             num += Dict.get(s[i])
         return num
+
+        

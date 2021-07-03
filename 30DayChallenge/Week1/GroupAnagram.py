@@ -9,3 +9,6 @@ class Solution:
             else:
                 ans[key].append(i)
         return ans.values()
+
+
+        
